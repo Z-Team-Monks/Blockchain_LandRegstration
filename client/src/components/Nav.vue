@@ -35,7 +35,7 @@
             TRANSACTIONS</router-link
           >
         </li>
-        <li class="nav-item">
+        <li class="nav-item"> 
           <router-link class="nav-link page-scroll" :to="{ name: 'Register' }"
             >REGISTER</router-link
           >
