@@ -1,0 +1,130 @@
+{
+  "contractName": "LandRegistration",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/LandRegistration.sol\":\"LandRegistration\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/LandRegistration.sol\":{\"keccak256\":\"0x0f97628adec4fbb27786eedd1c2009fcef9989e2d4e95194cd158c4d26069572\",\"urls\":[\"bzz-raw://de7598f2bdc3466fb222db0dbd8849d1e39e27dbaf5289b747a56f2a6d1e9bd1\",\"dweb:/ipfs/QmSPK1n56ZFJ3RT6tdfryaDd2FW7h1GDHSiXA4PXwiftk3\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a723158209f7a05bf056798fa375796680f935feb94f2d99553d4c33df5a15bfe4fe5151864736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a723158209f7a05bf056798fa375796680f935feb94f2d99553d4c33df5a15bfe4fe5151864736f6c63430005100032",
+  "sourceMap": "66:1046:2:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;66:1046:2;;;;;;;",
+  "deployedSourceMap": "66:1046:2:-;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract LandRegistration {\n\n    // constructor() public {\n    //     owner = msg.sender;\n    // }\n\n\n    // address owner;\n    // mapping(uint256 => landDetails) lands;\n    // mapping(string => address) public admin;\n    // mapping(address => profiles) profile;\n\n    // enum RequestStatus {\n    //     Default,\n    //     pending,\n    //     reject,\n    //     approved\n    // }\n\n    // struct landDetails {\n    //     string state;\n    //     string district;\n    //     string village;\n    //     uint256 surveyNumber;\n    //     address payable CurrentOwner;\n    //     uint256 marketValue;\n    //     bool isAvailable;\n    //     address requester;\n    //     RequestStatus requestStatus;\n    // }\n\n    // struct profiles {\n    //     uint256[] assetList;\n    // }\n\n    // modifier onlyOwner() {\n    //     require(msg.sender == owner);\n    //     _;\n    // }\n\n    // function addSuperAdmin(address _superAdmin, string memory _village)\n    //     public\n    //     onlyOwner\n    // {\n    //     admin[_village] = _superAdmin;\n    // }\n\n    \n}\n",
+  "sourcePath": "F:\\blockchain-project\\contracts\\LandRegistration.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/LandRegistration.sol",
+    "exportedSymbols": {
+      "LandRegistration": [
+        733
+      ]
+    },
+    "id": 734,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 732,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:2"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 733,
+        "linearizedBaseContracts": [
+          733
+        ],
+        "name": "LandRegistration",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 734,
+        "src": "66:1046:2"
+      }
+    ],
+    "src": "32:1081:2"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/LandRegistration.sol",
+      "exportedSymbols": {
+        "LandRegistration": [
+          733
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.4",
+            ".22",
+            "<",
+            "0.9",
+            ".0"
+          ]
+        },
+        "id": 732,
+        "name": "PragmaDirective",
+        "src": "32:32:2"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            733
+          ],
+          "name": "LandRegistration",
+          "nodes": [
+            null
+          ],
+          "scope": 734
+        },
+        "id": 733,
+        "name": "ContractDefinition",
+        "src": "66:1046:2"
+      }
+    ],
+    "id": 734,
+    "name": "SourceUnit",
+    "src": "32:1081:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xEE7bB3E1C71BAC63Cba8272B4E68a49Ef5Ae6596",
+      "transactionHash": "0xb0c0b60cf6faeb9522f71940bc259a41b8a7e56cb0ddd21f62d6b714b1fe1f30"
+    }
+  },
+  "schemaVersion": "3.4.4",
+  "updatedAt": "2022-01-14T22:03:24.261Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

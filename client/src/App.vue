@@ -7,6 +7,9 @@
 </template>
 
 <script>
+import Web3 from 'web3';
+
+// import Web12 from './libs/web3'
 import Navigation from "./components/Nav.vue";
 import TheFooter from "./components/Footer.vue";
 export default {
@@ -14,6 +17,8 @@ export default {
   components: {
     Navigation,
     TheFooter,
+  },
+  created() {
   },
 };
 </script>
